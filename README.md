@@ -1,7 +1,6 @@
-# plantillaFlexGrid
+### Página Web de Practicas con Flex
 
-### Plantilla pensada para hacer un Fork
-(Concepto Plantilla/Template)
+# FLEXBOX
 
 __Tecnología integrada__
 - HTML5

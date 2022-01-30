@@ -4,13 +4,78 @@
 /* VARIABLES */
 
 
+body{
+    display: flex;
+    justify-content: center;
+}
+/* CONTENEDOR */
+.contenedor{
+    max-width: 1366px;
+    padding: 0 20px;
+    background-color:#f2f2f2;
+    font-size: 1.125rem;
+    font-family: sans-serif;
+    color: #333;
+    /* centrar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+section{
+    margin-bottom: 20px;
+}
+img{
+   padding: 10px;
+    width: 20%;
+}
 
 /* HEADER */
 
 /* NAV */
 
 /* SECTION */
+.variosZigzag{
+    width: 80%;
+
+
+    
+}
+.zigzag{
+    display: flex;
+}
+
+/* para poder utilizar esta clase, debo estar trabajando con Flex */
+.izquierda{
+    flex-direction: row-reverse;
+}
+
+/* Galeria */
+.galeria{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Newsletter */
+.news{
+    width: 100vw;
+    padding: 50px 0;
+    background-color: rgb(171, 171, 171);
+
+    /* centrar en columnas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Multicosas */
+.multi{
+    border-radius: 20px;
+    border: 1px solid red;
+    display: flex;
+
+}
 
 /* ASIDE */
 
